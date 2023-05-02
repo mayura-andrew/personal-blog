@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Your Name]]></title>
+        <description><![CDATA[Your Name]]></description>
+        <link>https://yoursite.com</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 02 May 2023 07:21:03 GMT</lastBuildDate>
+        <atom:link href="https://yoursite.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Enhance Your Skills with Free Linux Foundation Training Courses]]></title>
+            <description><![CDATA[Enhance your skills and boost your career with the free training courses from the Linux Foundation.]]></description>
+            <link>/posts/linux-foundation</link>
+            <guid isPermaLink="true">/posts/linux-foundation</guid>
+            <category><![CDATA[self-learning]]></category>
+            <dc:creator><![CDATA[mayura andrew]]></dc:creator>
+            <pubDate>Thu, 16 Mar 2023 18:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why did I become an open-source enthusiast?]]></title>
+            <description><![CDATA[This article is about my journey with open-source software.]]></description>
+            <link>/posts/my-story</link>
+            <guid isPermaLink="true">/posts/my-story</guid>
+            <category><![CDATA[open-source]]></category>
+            <dc:creator><![CDATA[mayura andrew]]></dc:creator>
+            <pubDate>Wed, 01 Mar 2023 18:30:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
