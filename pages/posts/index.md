@@ -1,6 +1,6 @@
 ---
 type: posts
-title: blog
+title: blog✍🏻
 date: 2023-03-18
 ---
 ---
