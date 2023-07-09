@@ -2,8 +2,8 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'Mayura Andrew | Blog',
-    description: 'Mayura Andrew | Blog',
+    title: 'Mayura Andrew Personal Website',
+    description: '2x Major in Software Engineering && Network Engineering | Undergraduate | Open-Source Enthusiast | Global Citizen',
     image: '',
   }
 
