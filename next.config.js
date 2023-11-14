@@ -10,3 +10,10 @@ const nextConfig = {
 }
 
 module.exports = withNextra(nextConfig)
+
+// next.config.js
+module.exports = {
+  images: {
+    unoptimized: true,
+  },
+};

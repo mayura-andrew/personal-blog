@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title><![CDATA[Mayura Andrew]]></title>
-        <description><![CDATA[Your Name]]></description>
-        <link>https://mayuraalahakoon.me</link>
+        <description><![CDATA[Mayura Andrew]]></description>
+        <link>www.mayuraalahakoon.me</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 May 2023 07:21:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Nov 2023 19:28:39 GMT</lastBuildDate>
         <atom:link href="https://mayuraalahakoon.me/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[A Beginner's Guide and Free Resources to Learn Golang from an Early Stage Gopher]]></title>
+            <description><![CDATA[Embark on your Golang journey with this beginner's guide curated by an early-stage Gopher. Explore free resources, master the language, and unlock the potential of Go programming. Start your coding adventure now! 🚀🐹]]></description>
+            <link>/posts/Discover-Golang:-A-Beginner&apos;s-Guide</link>
+            <guid isPermaLink="true">/posts/Discover-Golang:-A-Beginner&apos;s-Guide</guid>
+            <category><![CDATA[GoLang]]></category>
+            <category><![CDATA[Gopher]]></category>
+            <category><![CDATA[Beginner]]></category>
+            <dc:creator><![CDATA[mayura andrew]]></dc:creator>
+            <pubDate>Mon, 13 Nov 2023 18:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sharing My Success as a Shubhra Kar Linux Foundation Training (LiFT) Scholarship Winner🎉]]></title>
+            <description><![CDATA[I'm thrilled to announce that I've been awarded the prestigious Shubhra Kar Linux Foundation Training (LiFT) Scholarship. This program provides individuals facing financial constraints with free access to top-quality training courses and certification exams in open source technology. It's an incredible opportunity for me to enhance my skills, expand my knowledge, and pursue exciting career prospects. I'm grateful for this life-changing experience and encourage others to apply in the upcoming cycle. Let's come together to promote diversity and inclusivity in the thriving open source technology community.]]></description>
+            <link>/posts/Shubhra-Kar-Linux-Foundation-Training-(LiFT)-Scholarship</link>
+            <guid isPermaLink="true">/posts/Shubhra-Kar-Linux-Foundation-Training-(LiFT)-Scholarship</guid>
+            <category><![CDATA[open-source]]></category>
+            <dc:creator><![CDATA[mayura andrew]]></dc:creator>
+            <pubDate>Sat, 08 Jul 2023 18:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Unlocking the Benefits of Containers for Computer Science Students]]></title>
+            <description><![CDATA[This article highlights the advantages of containers for computer science students and their practical applications in university projects. Containers offer a consistent, efficient, and portable runtime environment for developing and deploying applications. They enable simplified setup, improved consistency, and reduced bugs in database management, web development, and machine learning projects. Understanding and utilizing containers equips computer science students with valuable skills for their future careers.]]></description>
+            <link>/posts/containers</link>
+            <guid isPermaLink="true">/posts/containers</guid>
+            <category><![CDATA[containerization]]></category>
+            <dc:creator><![CDATA[mayura andrew]]></dc:creator>
+            <pubDate>Sat, 10 Jun 2023 18:30:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Enhance Your Skills with Free Linux Foundation Training Courses]]></title>
             <description><![CDATA[Enhance your skills and boost your career with the free training courses from the Linux Foundation.]]></description>
