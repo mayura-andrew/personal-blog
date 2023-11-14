@@ -20,7 +20,8 @@ module.exports = {
 
 // next.config.js
 module.exports = {
-  basePath: 'https://mayura-andrew.github.io/mayura_andrew/',
-  assetPrefix: '/mayura_andrew/',
+  basePath: '/mayura_andrew',
+  assetPrefix: '/mayura_andrew',
   // ... other configurations
 }
+
