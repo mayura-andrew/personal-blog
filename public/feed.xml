@@ -4,8 +4,9 @@
         <description><![CDATA[Mayura Andrew]]></description>
         <link>www.mayuraalahakoon.me</link>
         <generator>RSS for Node</generator>
+<<<<<<< HEAD
         <lastBuildDate>Tue, 14 Nov 2023 20:22:37 GMT</lastBuildDate>
-        <atom:link href="https://mayuraalahakoon.me/feed.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://mayuraandrew.tech/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[A Beginner's Guide and Free Resources to Learn Golang from an Early Stage Gopher]]></title>
             <description><![CDATA[Embark on your Golang journey with this beginner's guide curated by an early-stage Gopher. Explore free resources, master the language, and unlock the potential of Go programming. Start your coding adventure now! 🚀🐹]]></description>
@@ -35,6 +36,10 @@
             <dc:creator><![CDATA[mayura andrew]]></dc:creator>
             <pubDate>Sat, 10 Jun 2023 18:30:00 GMT</pubDate>
         </item>
+=======
+        <lastBuildDate>Tue, 14 Nov 2023 20:53:30 GMT</lastBuildDate>
+        <atom:link href="https://yoursite.com/feed.xml" rel="self" type="application/rss+xml"/>
+>>>>>>> e06818a (fixed main)
         <item>
             <title><![CDATA[Enhance Your Skills with Free Linux Foundation Training Courses]]></title>
             <description><![CDATA[Enhance your skills and boost your career with the free training courses from the Linux Foundation.]]></description>
