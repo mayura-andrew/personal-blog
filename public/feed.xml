@@ -4,7 +4,6 @@
         <description><![CDATA[Mayura Andrew]]></description>
         <link>www.mayuraalahakoon.me</link>
         <generator>RSS for Node</generator>
-<<<<<<< HEAD
         <lastBuildDate>Tue, 14 Nov 2023 20:22:37 GMT</lastBuildDate>
         <atom:link href="https://mayuraandrew.tech/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
@@ -36,10 +35,8 @@
             <dc:creator><![CDATA[mayura andrew]]></dc:creator>
             <pubDate>Sat, 10 Jun 2023 18:30:00 GMT</pubDate>
         </item>
-=======
         <lastBuildDate>Tue, 14 Nov 2023 20:53:30 GMT</lastBuildDate>
-        <atom:link href="https://yoursite.com/feed.xml" rel="self" type="application/rss+xml"/>
->>>>>>> e06818a (fixed main)
+        <atom:link href="https://mayuraandrew.tech/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Enhance Your Skills with Free Linux Foundation Training Courses]]></title>
             <description><![CDATA[Enhance your skills and boost your career with the free training courses from the Linux Foundation.]]></description>
