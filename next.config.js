@@ -17,3 +17,10 @@ module.exports = {
     unoptimized: true,
   },
 };
+
+// next.config.js
+module.exports = {
+  basePath: '/mayura_andrew',
+  assetPrefix: '/mayura_andrew/',
+  // ... other configurations
+}
