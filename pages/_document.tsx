@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Mayura Andrew Personal Website',
     description: 'An Early Stage Software Engineer | Undergraduate | Open-Source Enthusiast | Global Citizen',
-    image: '',
+    image: 'https://raw.githubusercontent.com/mayura-andrew/knowlihub/main/public/logo.png',
   }
 
   return (
@@ -17,7 +17,7 @@ export default function Document() {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@yourname" />
+        <meta name="twitter:site" content="@mayura-andrew" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
