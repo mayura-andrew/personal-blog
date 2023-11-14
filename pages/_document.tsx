@@ -2,9 +2,9 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'Mayura Andrew Personal Website',
+    title: 'mayuraandrew.tech',
     description: 'An Early Stage Software Engineer | Undergraduate | Open-Source Enthusiast | Global Citizen',
-    image: 'https://raw.githubusercontent.com/mayura-andrew/knowlihub/main/public/logo.png',
+    image: 'https://mayuraandrew.tech/public/favicon.ico',
   }
 
   return (
