@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
  
         <meta property="og:title" content="Mayura Andrew" />
-        <meta property="og:image" content="https://mayuraandrew.tech/public/favicon.ico" />
+        <meta property="og:image" content="../public/favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </>

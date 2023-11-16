@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'mayuraandrew.tech',
     description: 'An Early Stage Software Engineer | Undergraduate | Open-Source Enthusiast | Global Citizen',
-    image: 'https://mayuraandrew.tech/public/favicon.ico',
+    image: '../public/favicon.ico',
   }
 
   return (
