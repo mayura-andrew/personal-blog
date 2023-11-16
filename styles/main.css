@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @font-face {
   font-family: 'Inter var';
   font-style: normal;
@@ -94,5 +99,23 @@ nav {
   height: 20px; /* Adjust the height of the social media icons */
   margin-right: 30px;
   margin-bottom: 0px;
+  margin-left: 30px;
   margin-top: 3px; /* Add some space between the icons */
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social-links {
+    justify-content: center;
+    margin-top: 10px;
+  }
 }
