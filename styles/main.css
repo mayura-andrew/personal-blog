@@ -63,3 +63,36 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+
+header {
+  background-color: #ffffff; /* Adjust background color as needed */
+  padding: 0px;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 3px;
+  align-items: center; /* Center the social media links vertically */
+}
+
+.social-links a {
+  display: flex;
+  align-items: center; /* Center the content of each link horizontally and vertically */
+  color: white;
+  text-decoration: none;
+}
+
+.social-links img {
+  width: 20px; /* Adjust the width of the social media icons */
+  height: 20px; /* Adjust the height of the social media icons */
+  margin-right: 30px;
+  margin-bottom: 0px;
+  margin-top: 3px; /* Add some space between the icons */
+}
