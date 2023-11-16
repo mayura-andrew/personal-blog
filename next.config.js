@@ -11,8 +11,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/mayura_andrew',
-  assetPrefix: '/mayura_andrew',
   // ... other configurations
 };
 

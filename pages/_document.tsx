@@ -2,9 +2,9 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'Mayura Andrew Personal Website',
+    title: 'mayuraandrew.tech',
     description: 'An Early Stage Software Engineer | Undergraduate | Open-Source Enthusiast | Global Citizen',
-    image: '',
+    image: 'https://mayuraandrew.tech/public/favicon.ico',
   }
 
   return (
@@ -17,7 +17,7 @@ export default function Document() {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@yourname" />
+        <meta name="twitter:site" content="@mayura-andrew" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
