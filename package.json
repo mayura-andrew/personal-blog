@@ -1,5 +1,7 @@
 {
   "private": true,
+  "homepage": "https://mayura-andrew.github.io/mayura_andrew/",
+
   "scripts": {
     "dev": "next",
     "build": "node ./scripts/gen-rss.js && next build",
@@ -20,4 +22,5 @@
     "@types/react-dom": "^18.0.5",
     "typescript": "^4.7.4"
   }
+
 }
