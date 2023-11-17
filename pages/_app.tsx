@@ -32,7 +32,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:image" content="../public/favicon.ico" />
       </Head>
             {/* Add social media links to the navigation bar */}
-            <header>
+      <header>
         <nav>
           <div className="social-links">
             {socialMediaLinks.map((link) => (
