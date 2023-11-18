@@ -119,3 +119,12 @@ nav {
     margin-top: 10px;
   }
 }
+
+body.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+nav.dark-mode {
+  background-color: #333;
+}
