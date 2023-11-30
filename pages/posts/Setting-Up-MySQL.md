@@ -26,14 +26,14 @@ This guide provides step-by-step instructions on running a MySQL container in Li
 
 
 ```bash
-docker pull container-registry.oracle.com/mysql/community-server:tag
+docker pull mysql:tag
 ```
 Replace 'tag' with the desired version of MySQL, such as 'latest' for the latest version.
 
 #### Run MySQL Container:
 
 ```bash
-docker run --name mysql-container -d -p 3306:3306 --env MYSQL_ROOT_PASSWORD=my-secret-pw mysql:tag
+docker run --name mysql-container -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:tag
 ```
 
 Replace 'tag' with the version of MySQL you pulled in the previous step. Ensure consistency in container names and port mappings.
@@ -49,15 +49,7 @@ docker network create my-network
 #### Run MySQL Container with Network:
 
 ```bash
-docker run -d --name mysql-container --network my-network -e MYSQL_ROOT_PASSWORD=your_mysql_root_password mysql:tag
-```
-
-Replace 'tag' with the version of MySQL you want to use, e.g., 'latest'.
-
-#### Run phpMyAdmin Container:
-
-```bash
-docker run -d --name phpmyadmin-container --network my-network -e PMA_HOST=mysql-container -p 8080:80 phpmyadmin/phpmyadmin
+docker run --name phpmyadmin-container -d --network my-network -e PMA_HOST=mysql-container -p 8080:80 phpmyadmin/phpmyadmin
 ```
 
 This command links phpMyAdmin to the MySQL container and exposes port 8080 on the host.
