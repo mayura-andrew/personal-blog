@@ -6,7 +6,7 @@ tag: containerization, docker, mysql, phpmyadmin
 author: mayura andrew
 ---
 
-# Setting Up MySQL and phpMyAdmin in Debian with Docker 🐳
+# Setting Up MySQL and phpMyAdmin in Debian with Docker
 --- 
 
 ![Docker](public/images/docker.png)

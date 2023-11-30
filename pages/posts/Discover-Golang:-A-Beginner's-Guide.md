@@ -6,7 +6,7 @@ tag: GoLang, Gopher, Beginner
 author: mayura andrew
 ---
 
-#  A Beginner's Guide and Free Resources to Learn Golang from an Early Stage Gopher🐹
+#  A Beginner's Guide and Free Resources to Learn Golang from an Early Stage Gopher
 ---
 
 ## What is Go?
