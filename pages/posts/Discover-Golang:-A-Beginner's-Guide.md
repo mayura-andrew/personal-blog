@@ -1,12 +1,12 @@
 ---
-title: A Beginner's Guide and Free Resources to Learn Golang from an Early Stage Gopher
+title: A Beginner's Guide and Free Resources to Learn Golang from an Early Stage Gopher🐹
 date: 2023/11/14
 description: Embark on your Golang journey with this beginner's guide curated by an early-stage Gopher. Explore free resources, master the language, and unlock the potential of Go programming. Start your coding adventure now! 🚀🐹 #Golang #ProgrammingJourney
 tag: GoLang, Gopher, Beginner
 author: mayura andrew
 ---
 
-#  A Beginner's Guide and Free Resources to Learn Golang from an Early Stage Gopher
+#  A Beginner's Guide and Free Resources to Learn Golang from an Early Stage Gopher🐹
 ---
 
 ## What is Go?
