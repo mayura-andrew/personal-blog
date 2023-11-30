@@ -13,7 +13,11 @@ author: mayura andrew
 
 ## Introduction 🚀
 
-This guide provides step-by-step instructions on running a MySQL container in Linux OS and connecting it to a phpMyAdmin container, both running within Docker. This allows you to manage your MySQL databases seamlessly.
+This guide provides step-by-step instructions on running a MySQL container in Linux OS and connecting it to a phpMyAdmin container, both running within Docker. This allows you to manage your MySQL databases seamlessly. 
+
+### Why Docker? 
+
+If you're not yet acquainted with the transformative power of Docker, check out my blog about containers ![here](https://mayuraandrew.tech/posts/containers). It's a primer on the game-changing technology that's reshaping how we deploy and manage applications.
 
 #### My OS
 
