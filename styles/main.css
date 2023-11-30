@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 @font-face {
   font-family: 'Inter var';
   font-style: normal;
@@ -62,4 +67,64 @@ img.next-image {
 
 .nav-line .nav-link {
   color: #69778c;
+}
+
+
+header {
+  background-color: #fff; /* Adjust background color as needed */
+  padding: 0px;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 3px;
+  align-items: center; /* Center the social media links vertically */
+}
+
+.social-links a {
+  display: flex;
+  align-items: center; /* Center the content of each link horizontally and vertically */
+  color: rgb(247, 244, 244);
+  text-decoration: none;
+}
+
+.social-links img {
+  width: 20px; /* Adjust the width of the social media icons */
+  height: 20px; /* Adjust the height of the social media icons */
+  margin-right: 30px;
+  margin-bottom: 3px;
+  margin-left: 30px;
+  margin-top: 3px; /* Add some space between the icons */
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .social-links {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
+body.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+nav.dark-mode {
+  background-color: #333;
 }
