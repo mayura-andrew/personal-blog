@@ -17,7 +17,7 @@ This guide provides step-by-step instructions on running a MySQL container in Li
 
 ### Why Docker? 
 
-If you're not yet acquainted with the transformative power of Docker, check out my blog about containers ![here](https://mayuraandrew.tech/posts/containers). It's a primer on the game-changing technology that's reshaping how we deploy and manage applications.
+If you're not yet acquainted with the transformative power of Docker, check out my blog about containers [here](https://mayuraandrew.tech/posts/containers). It's a primer on the game-changing technology that's reshaping how we deploy and manage applications.
 
 #### My OS
 
@@ -69,5 +69,6 @@ You've successfully set up a MySQL container and connected it to phpMyAdmin in a
 ### Sources 📚
 - [MySQL Docker Image: Docker Hub - MySQL](https://hub.docker.com/_/mysql)
 - [phpMyAdmin Docker Image: Docker Hub - phpMyAdmin](https://hub.docker.com/_/phpmyadmin)
+
 
 ---
