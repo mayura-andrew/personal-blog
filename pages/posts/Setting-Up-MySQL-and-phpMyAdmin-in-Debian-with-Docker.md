@@ -7,6 +7,7 @@ author: mayura andrew
 ---
 # Setting Up MySQL and phpMyAdmin in Debian with Docker 🐳
 --- 
+
 ![Docker](public/images/docker.png)
 
 ## Introduction 🚀
