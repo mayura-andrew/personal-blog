@@ -13,7 +13,7 @@ author: mayura andrew
 
 ## Introduction 🚀
 
-This guide provides step-by-step instructions on running a MySQL container in Debian OS and connecting it to a phpMyAdmin container, both running within Docker. This allows you to manage your MySQL databases seamlessly.
+This guide provides step-by-step instructions on running a MySQL container in Linux OS and connecting it to a phpMyAdmin container, both running within Docker. This allows you to manage your MySQL databases seamlessly.
 
 #### My OS
 
