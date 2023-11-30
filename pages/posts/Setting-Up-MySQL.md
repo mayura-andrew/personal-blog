@@ -53,8 +53,10 @@ docker network create my-network
 #### Run MySQL Container with Network:
 
 ```bash
-docker run --name phpmyadmin-container -d --network my-network -e PMA_HOST=mysql-container -p 8080:80 phpmyadmin/phpmyadmin
+docker run -d -p 3306:3306 --name mysql-container --network my-network -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:tag
+
 ```
+Replace 'tag' with the version of MySQL you pulled in the previous step. Ensure consistency in container names and port mappings.
 
 This command links phpMyAdmin to the MySQL container and exposes port 8080 on the host.
 
