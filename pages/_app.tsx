@@ -1,7 +1,7 @@
 import 'nextra-theme-blog/style.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import '../styles/main.css';
+import 'styles/main.css';
 
 const socialMediaLinks = [
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mayura-alahakoon-827381201/', icon: 'images/linkedin.svg' },
