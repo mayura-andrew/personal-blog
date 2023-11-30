@@ -1,10 +1,11 @@
 ---
-title: Setting Up MySQL and phpMyAdmin in Debian with Docker 🐳
+title: Setting Up MySQL and phpMyAdmin in Debian with Docker🐳
 date: 2023/11/30
 description: Discover a hassle-free way to manage MySQL databases using Docker containers on your Debian OS. This step-by-step guide walks you through setting up a MySQL container, connecting it to a phpMyAdmin container, all within the Docker environment.
 tag: containerization, docker, mysql, phpmyadmin
 author: mayura andrew
 ---
+
 # Setting Up MySQL and phpMyAdmin in Debian with Docker 🐳
 --- 
 

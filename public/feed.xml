@@ -2,20 +2,21 @@
     <channel>
         <title><![CDATA[Mayura Andrew]]></title>
         <description><![CDATA[Mayura Andrew]]></description>
-        <link>www.mayuraalahakoon.me</link>
+        <link>https://mayuraandrew.tech</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Nov 2023 20:22:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Nov 2023 16:04:45 GMT</lastBuildDate>
         <atom:link href="https://mayuraandrew.tech/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[A Beginner's Guide and Free Resources to Learn Golang from an Early Stage Gopher]]></title>
-            <description><![CDATA[Embark on your Golang journey with this beginner's guide curated by an early-stage Gopher. Explore free resources, master the language, and unlock the potential of Go programming. Start your coding adventure now! 🚀🐹]]></description>
-            <link>/posts/Discover-Golang:-A-Beginner&apos;s-Guide</link>
-            <guid isPermaLink="true">/posts/Discover-Golang:-A-Beginner&apos;s-Guide</guid>
-            <category><![CDATA[GoLang]]></category>
-            <category><![CDATA[Gopher]]></category>
-            <category><![CDATA[Beginner]]></category>
+            <title><![CDATA[Setting Up MySQL and phpMyAdmin in Debian with Docker 🐳]]></title>
+            <description><![CDATA[Discover a hassle-free way to manage MySQL databases using Docker containers on your Debian OS. This step-by-step guide walks you through setting up a MySQL container, connecting it to a phpMyAdmin container, all within the Docker environment.]]></description>
+            <link>/posts/Setting-Up-MySQL</link>
+            <guid isPermaLink="true">/posts/Setting-Up-MySQL</guid>
+            <category><![CDATA[containerization]]></category>
+            <category><![CDATA[docker]]></category>
+            <category><![CDATA[mysql]]></category>
+            <category><![CDATA[phpmyadmin]]></category>
             <dc:creator><![CDATA[mayura andrew]]></dc:creator>
-            <pubDate>Mon, 13 Nov 2023 18:30:00 GMT</pubDate>
+            <pubDate>Wed, 29 Nov 2023 18:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Sharing My Success as a Shubhra Kar Linux Foundation Training (LiFT) Scholarship Winner🎉]]></title>
@@ -27,6 +28,17 @@
             <pubDate>Sat, 08 Jul 2023 18:30:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[A Beginner's Guide and Free Resources to Learn Golang from an Early Stage Gopher🐹]]></title>
+            <description><![CDATA[Embark on your Golang journey with this beginner's guide curated by an early-stage Gopher. Explore free resources, master the language, and unlock the potential of Go programming. Start your coding adventure now! 🚀🐹]]></description>
+            <link>/posts/Discover-Golang:-A-Beginner&apos;s-Guide</link>
+            <guid isPermaLink="true">/posts/Discover-Golang:-A-Beginner&apos;s-Guide</guid>
+            <category><![CDATA[GoLang]]></category>
+            <category><![CDATA[Gopher]]></category>
+            <category><![CDATA[Beginner]]></category>
+            <dc:creator><![CDATA[mayura andrew]]></dc:creator>
+            <pubDate>Mon, 13 Nov 2023 18:30:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Unlocking the Benefits of Containers for Computer Science Students]]></title>
             <description><![CDATA[This article highlights the advantages of containers for computer science students and their practical applications in university projects. Containers offer a consistent, efficient, and portable runtime environment for developing and deploying applications. They enable simplified setup, improved consistency, and reduced bugs in database management, web development, and machine learning projects. Understanding and utilizing containers equips computer science students with valuable skills for their future careers.]]></description>
             <link>/posts/containers</link>
@@ -34,17 +46,6 @@
             <category><![CDATA[containerization]]></category>
             <dc:creator><![CDATA[mayura andrew]]></dc:creator>
             <pubDate>Sat, 10 Jun 2023 18:30:00 GMT</pubDate>
-        </item>
-        <lastBuildDate>Tue, 14 Nov 2023 20:53:30 GMT</lastBuildDate>
-        <atom:link href="https://mayuraandrew.tech/feed.xml" rel="self" type="application/rss+xml"/>
-        <item>
-            <title><![CDATA[Enhance Your Skills with Free Linux Foundation Training Courses]]></title>
-            <description><![CDATA[Enhance your skills and boost your career with the free training courses from the Linux Foundation.]]></description>
-            <link>/posts/linux-foundation</link>
-            <guid isPermaLink="true">/posts/linux-foundation</guid>
-            <category><![CDATA[self-learning]]></category>
-            <dc:creator><![CDATA[mayura andrew]]></dc:creator>
-            <pubDate>Thu, 16 Mar 2023 18:30:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Why did I become an open-source enthusiast?]]></title>
@@ -54,6 +55,15 @@
             <category><![CDATA[open-source]]></category>
             <dc:creator><![CDATA[mayura andrew]]></dc:creator>
             <pubDate>Wed, 01 Mar 2023 18:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Enhance Your Skills with Free Linux Foundation Training Courses]]></title>
+            <description><![CDATA[Enhance your skills and boost your career with the free training courses from the Linux Foundation.]]></description>
+            <link>/posts/linux-foundation</link>
+            <guid isPermaLink="true">/posts/linux-foundation</guid>
+            <category><![CDATA[self-learning]]></category>
+            <dc:creator><![CDATA[mayura andrew]]></dc:creator>
+            <pubDate>Thu, 16 Mar 2023 18:30:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
