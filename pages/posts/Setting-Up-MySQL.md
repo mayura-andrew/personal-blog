@@ -50,11 +50,16 @@ Replace 'tag' with the version of MySQL you pulled in the previous step. Ensure 
 docker network create my-network
 ```
 
-#### Run MySQL Container with Network:
+#### Run MySQL Container with phpMyAdmin:
 
 ```bash
-docker run -d -p 3306:3306 --name mysql-container --network my-network -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:tag
-
+docker run -d \
+  --name phpmyadmin-container \
+  --network my-network \
+  -e PMA_HOST=mysql-container \
+  -e PMA_PORT=3306 \
+  -p 8080:80 \
+  phpmyadmin/phpmyadmin:latest
 ```
 Replace 'tag' with the version of MySQL you pulled in the previous step. Ensure consistency in container names and port mappings.
 
