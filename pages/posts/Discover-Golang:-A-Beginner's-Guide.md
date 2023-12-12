@@ -72,6 +72,15 @@ Go provides excellent support for cross-platform development, allowing developer
 
 - **[Data Structures in Golang Series by JamieDev](https://youtube.com/playlist?list=PL0q7mDmXPZm7s7weikYLpNZBKk5dCoWm6&si=GgrXXMNwarX02EGr):** This playlist delves into fundamental data structures in #Golang, addressing topics like linked lists, heaps, stacks and queues, tries, graphs, and hash tables.
 
+### Books📖
+
+- **[The Go Programming Language by Alan A.A. Donowan and Brian W. Kernighan](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440):** Everything about the language.
+
+- **[Let's Go! Learn to build professional web applications with Go by Alex Edwards](https://lets-go.alexedwards.net/):** A fantastic book that provides a step-by-step guide to creating fast, secure, and maintainable web applications.
+
+- **[Let's Go Further! by Alex Edwards](https://lets-go-further.alexedwards.net/):** This book helps you extend and expand your knowledge of Go — taking you beyond the basics and guiding you through advanced patterns for developing, managing and deploying APIs and web applications.
+
+---
 In conclusion, I'm still an early-stage developer deeply in love with the Go language, and I believe these free resources will help you all improve and learn more about the Go world. I hope you become Gophers. Go has emerged as a powerful language for modern development. Its simplicity, efficiency, and built-in support for concurrency make it an excellent choice for a variety of applications. Whether you are a seasoned developer or just starting your programming journey, exploring Go can open up new possibilities in your coding endeavors.
 
 Happy coding! 🧑‍💻
