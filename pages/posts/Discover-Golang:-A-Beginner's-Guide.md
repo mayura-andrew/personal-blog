@@ -68,6 +68,8 @@ Go provides excellent support for cross-platform development, allowing developer
 
 - **[Golang Tutorials by Tech With Tim](https://youtube.com/playlist?list=PLzMcBGfZo4-mtY_SE3HuzQJzuj4VlUG0q&si=sciqG4wOBNESllOM):** A comprehensive tutorial series introducing the Golang programming language. Tailored for absolute beginners eager to step into the realm of Go programming!
 
+- **[Mario Carrion is a YouTuber who shares a wealth of content related to Go lang, including hands-on tutorials on Software Architecture and System Design in Go.](https://www.youtube.com/@MarioCarrion/playlists)**
+
 - **[Data Structures in Golang Series by JamieDev](https://youtube.com/playlist?list=PL0q7mDmXPZm7s7weikYLpNZBKk5dCoWm6&si=GgrXXMNwarX02EGr):** This playlist delves into fundamental data structures in #Golang, addressing topics like linked lists, heaps, stacks and queues, tries, graphs, and hash tables.
 
 In conclusion, I'm still an early-stage developer deeply in love with the Go language, and I believe these free resources will help you all improve and learn more about the Go world. I hope you become Gophers. Go has emerged as a powerful language for modern development. Its simplicity, efficiency, and built-in support for concurrency make it an excellent choice for a variety of applications. Whether you are a seasoned developer or just starting your programming journey, exploring Go can open up new possibilities in your coding endeavors.
