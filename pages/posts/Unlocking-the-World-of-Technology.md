@@ -23,30 +23,30 @@ In the vast realm of technology, the journey of learning is both exciting and ch
 ### [Dr. Charles R. Severance](https://www.dr-chuck.com/)
 
 1. **C Programming:**
-   Dive into the fundamentals of C programming with Dr. Chuck's insightful lectures. [C Programming - Dr. Chuck](https://www.cc4e.com/)
+   Dive into the fundamentals of C programming with Dr. Chuck's insightful lectures. Click here-> [C Programming - Dr. Chuck](https://www.cc4e.com/)
 
 2. **Python Programming:**
-   Learn Python, a versatile and powerful language, through Dr. Chuck's hands-on tutorials. [Python for Everybody - Dr. Chuck](https://www.py4e.com/)
+   Learn Python, a versatile and powerful language, through Dr. Chuck's hands-on tutorials. Click here-> [Python for Everybody - Dr. Chuck](https://www.py4e.com/)
 
 3. **Django Web Framework:**
-   Unlock the world of web development with Django, guided by Dr. Chuck's comprehensive course. [Django for Everybody - Dr. Chuck](https://www.dj4e.com/)
+   Unlock the world of web development with Django, guided by Dr. Chuck's comprehensive course. Click here-> [Django for Everybody - Dr. Chuck](https://www.dj4e.com/)
 
 4. **PostgreSQL:**
-   Explore the realm of databases with Dr. Chuck's clear and concise PostgreSQL lectures. [PostgreSQL for Everybody - Dr. Chuck](https://www.pg4e.com/)
+   Explore the realm of databases with Dr. Chuck's clear and concise PostgreSQL lectures. Click here-> [PostgreSQL for Everybody - Dr. Chuck](https://www.pg4e.com/)
 
 ### [Dr. Stephen P. Tarzia](https://stevetarzia.com/teaching/)
 
 1. **Scalable Software Architecture:**
-   Delve into the principles of scalable software architecture for building robust applications. [Scalable Software Architecture - Dr. Tarzia](https://www.youtube.com/playlist?list=PLWl7jvxH18r0u5VRZsOjhghNXc_Ec4dZz)
+   Delve into the principles of scalable software architecture for building robust applications. Click here-> [Scalable Software Architecture - Dr. Tarzia](https://www.youtube.com/playlist?list=PLWl7jvxH18r0u5VRZsOjhghNXc_Ec4dZz)
 
 2. **Data Management and Information Processing:**
-   Understand the intricacies of data management and information processing in modern systems. [Data Management - Dr. Tarzia](https://www.youtube.com/playlist?list=PLWl7jvxH18r0dflwRg3F51qQ8DV5ScQ1n)
+   Understand the intricacies of data management and information processing in modern systems. Click here-> [Data Management - Dr. Tarzia](https://www.youtube.com/playlist?list=PLWl7jvxH18r0dflwRg3F51qQ8DV5ScQ1n)
 
 3. **Introduction to Computer Networking:**
-   Grasp the essentials of computer networking, from protocols to network architectures. [Computer Networking - Dr. Tarzia](https://www.youtube.com/playlist?list=PLWl7jvxH18r3nnotitKkyAjq268PQGc0-)
+   Grasp the essentials of computer networking, from protocols to network architectures. Click here-> [Computer Networking - Dr. Tarzia](https://www.youtube.com/playlist?list=PLWl7jvxH18r3nnotitKkyAjq268PQGc0-)
 
 4. **Operating Systems:**
-   Explore the core concepts of operating systems, their design, and functionalities. [Operating Systems - Dr. Tarzia](https://www.youtube.com/playlist?list=PLWl7jvxH18r1RSNrS7VF3Rfm557nzpi0M)
+   Explore the core concepts of operating systems, their design, and functionalities. Click here-> [Operating Systems - Dr. Tarzia](https://www.youtube.com/playlist?list=PLWl7jvxH18r1RSNrS7VF3Rfm557nzpi0M)
 
 ---
 
