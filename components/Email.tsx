@@ -101,7 +101,7 @@ const EmailSubscription = () => {
     ) : (
       <Form onSubmit={handleSubmit}>
         <Input type="email" value={email} onChange={e => setEmail(e.target.value)} required />
-        {isLoading ? <Spinner /> : <Button type="submit">Subscribe for Coding Insights🧑🏻‍💻</Button>}      </Form>
+        {isLoading ? <Spinner /> : <Button type="submit">Subscribe for Coding Insights🚀</Button>}      </Form>
     )
   );
 };
