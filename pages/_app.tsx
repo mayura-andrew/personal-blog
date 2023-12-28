@@ -59,6 +59,17 @@ export default function App({ Component, pageProps }: AppProps) {
       </header>
       <Component {...pageProps} />
      <EmailSubscription />
+     <header>
+        <nav>
+          <div className="social-links">
+            {socialMediaLinks.map((link) => (
+              <a key={link.name} href={link.url} target="_blank" rel="noopener noreferrer">
+                <img src={link.icon} alt={link.name} />
+              </a>
+            ))}
+          </div>
+        </nav>
+      </header>
     
     </>
   );
