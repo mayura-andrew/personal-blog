@@ -3,7 +3,6 @@ import React, { useState, ChangeEvent, FormEvent } from 'react';
 import jsonp from 'jsonp';
 
 
-
 const Form = styled.form`
   display: flex;
   flex-direction: column;
@@ -14,6 +13,14 @@ const Form = styled.form`
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  border: 2px solid #000;
+  animation: color-change 2s infinite;
+
+  @keyframes color-change {
+    0% { border-color: #000; }
+    50% { border-color: #007BFF; }
+    100% { border-color: #000; }
+  }
 `;
 
 const Input = styled.input`
@@ -94,7 +101,7 @@ const EmailSubscription = () => {
     ) : (
       <Form onSubmit={handleSubmit}>
         <Input type="email" value={email} onChange={e => setEmail(e.target.value)} required />
-        {isLoading ? <Spinner /> : <Button type="submit">Subscribe</Button>}      </Form>
+        {isLoading ? <Spinner /> : <Button type="submit">Subscribe for Coding Insights🧑🏻‍💻</Button>}      </Form>
     )
   );
 };
