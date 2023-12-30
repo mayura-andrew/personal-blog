@@ -100,7 +100,7 @@ const EmailSubscription = () => {
       <Message>🎉 Your email has been successfully subscribed! Stay tuned for exciting updates. 😊</Message>
     ) : (
       <Form onSubmit={handleSubmit}>
-        <Input type="email" value={email} onChange={e => setEmail(e.target.value)} required placeholder='type your email 📧' />
+        <Input type="email" value={email} onChange={e => setEmail(e.target.value)} required placeholder='type your email address here...' />
         {isLoading ? <Spinner /> : <Button type="submit">Subscribe for Coding Insights🚀</Button>}      </Form>
     )
   );
