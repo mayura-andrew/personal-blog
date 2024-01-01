@@ -1,6 +1,7 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 
 
+
 const SubscribeForm = () => {
   const [status, setStatus] = useState<string | null>(null);
   const [email, setEmail] = useState<string>("");
@@ -61,7 +62,7 @@ const SubscribeForm = () => {
             <p style={{ fontSize: '16px', color: '#333' }}>Oops, something went wrong... 🚫</p>
             <p style={{ fontSize: '14px', color: '#666' }}>
               Please,{" "}
-              <button onClick={() => setStatus(null)} style={{ backgroundColor: '#007bff', color: '#fff', padding: '10px 20px', borderRadius: '4px', border: 'none' }}>try again. 🔁</button>
+              <button onClick={() => setStatus(null)} style={{ backgroundColor: '#007bff', color: '#fff', padding: '10px 20px', borderRadius: '4px', border: 'none' }}>try again.</button>
             </p>
         </>
       )}
