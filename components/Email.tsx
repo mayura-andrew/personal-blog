@@ -1,109 +1,98 @@
-import styled from 'styled-components';
 import React, { useState, ChangeEvent, FormEvent } from 'react';
-import jsonp from 'jsonp';
 
 
-const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  border: 2px solid #000;
-  animation: color-change 2s infinite;
+const SubscribeForm = () => {
+  const [status, setStatus] = useState<string | null>(null);
+  const [email, setEmail] = useState<string>("");
+  const [name, setName] = useState<string>("");
 
-  @keyframes color-change {
-    0% { border-color: #000; }
-    50% { border-color: #007BFF; }
-    100% { border-color: #000; }
-  }
-`;
+  const FORM_URL = `https://app.convertkit.com/forms/6016671/subscriptions`;
 
-const Input = styled.input`
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-`;
-const Button = styled.button`
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #007BFF;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
 
-  &:hover {
-    background-color: #0056b3;
-  }
-`;
-const Message = styled.p`
-  text-align: center;
-  color: #3498db; // green color for success messages
-  padding: 10px;
-  border: 1px solid #4CAF50;
-  border-radius: 5px;
-  margin: 20px auto;
-  max-width: 400px;
-  font-size: 1.2em;
-`;
+    const data = new FormData(event.target as HTMLFormElement);
 
-const Spinner = styled.div`
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  border: 3px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  border-top-color: #3498db;
-  animation: spin 1s ease-in-out infinite;
+    try {
+      const response = await fetch(FORM_URL, {
+        method: "post",
+        body: data,
+        headers: {
+          accept: "application/json"
+        }
+      });
+      const json = await response.json();
 
-  @keyframes spin {
-    to {
-      transform: rotate(360deg);
-    }
-  }
-`;
-
-const EmailSubscription = () => {
-  const [email, setEmail] = useState('');
-  const [isSubscribed, setIsSubscribed] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
-
-  const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    setIsLoading(true);
-    const url = process.env.EMAIL_URL;
-    console.log(url);
-    jsonp(`${url}&EMAIL=${email}`, { param: 'c' }, (err, data) => {
-      console.log('API response:', data); // log the API response
-      setIsLoading(false);
-      setIsSubscribed(true);
-      console.log('isSubscribed set to true'); // log when isSubscribed is set to true
-      if (err) {
-        console.error(err);
-      } else if (data.result !== 'success') {
-        console.error(data.msg);
-      } else {
-        console.log('isSubscribed set to true'); // log when isSubscribed is set to true
+      if (json.status === "success") {
+        setStatus("SUCCESS");
+        return;
       }
-    });
+    } catch (err) {
+      setStatus("ERROR");
+      console.log(err);
+    }
   };
+
+  const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const { value } = event.target;
+    setEmail(value);
+  };
+
+  const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const { value } = event.target;
+    setName(value);
+  };
+
   return (
-    isSubscribed ? (
-      <Message>🎉 Your email has been successfully subscribed! Stay tuned for exciting updates. 😊</Message>
-    ) : (
-      <Form onSubmit={handleSubmit}>
-        <Input type="email" value={email} onChange={e => setEmail(e.target.value)} required placeholder='type your email address here...' />
-        {isLoading ? <Spinner /> : <Button type="submit">Subscribe for Coding Insights🚀</Button>}      </Form>
-    )
+    <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: '400px', margin: '0 auto' }}>
+      {status === "SUCCESS" && (
+        <>
+          <p style={{ fontSize: '16px', color: '#333' }}>
+            Welcome aboard{name ? `, ${name}` : ""}{" "}
+            <span role="img" aria-label="hi">
+            👋🏻
+            </span>
+          </p>
+          <p style={{ fontSize: '14px', color: '#666' }}>Please check your inbox to confirm the subscription! 📬</p>
+          </>
+          )}
+          {status === "ERROR" && (
+          <>
+            <p style={{ fontSize: '16px', color: '#333' }}>Oops, something went wrong... 🚫</p>
+            <p style={{ fontSize: '14px', color: '#666' }}>
+              Please,{" "}
+              <button onClick={() => setStatus(null)} style={{ backgroundColor: '#007bff', color: '#fff', padding: '10px 20px', borderRadius: '4px', border: 'none' }}>try again. 🔁</button>
+            </p>
+        </>
+      )}
+      {status === null && (
+        <form onSubmit={handleSubmit} style={{ border: '1px solid #ccc', padding: '10px', borderRadius: '4px' }}>
+          <input
+            style={{ marginBottom: '10px', padding: '5px', width: '100%', borderRadius: '4px', border: '1px solid #ccc' }}
+            aria-label="type your name"
+            name="fields[name]"
+            placeholder="type your name..."
+            type="text"
+            onChange={handleNameChange}
+            value={name}
+          />
+          <input
+            style={{ marginBottom: '10px', padding: '5px', width: '100%', borderRadius: '4px', border: '1px solid #ccc' }}
+            aria-label="type your email address"
+            name="email_address"
+            placeholder="type your email address..."
+            required
+            type="email"
+            onChange={handleEmailChange}
+            value={email}
+          />
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <button style={{ backgroundColor: '#007bff', color: '#fff', padding: '10px 20px', borderRadius: '4px', border: 'none', alignItems: 'center' }}>SUBSCRIBE</button>
+            </div>
+          </form>
+      )}
+    </div>
   );
 };
 
-export default EmailSubscription;
+export default SubscribeForm;

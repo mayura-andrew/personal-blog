@@ -2,7 +2,7 @@ import 'nextra-theme-blog/style.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import '../styles/main.css';
-import EmailSubscription from '../components/Email';
+import SubscribeForm from '../components/Email';
 import Script from 'next/script';
 import { useState } from 'react';
 
@@ -58,7 +58,7 @@ export default function App({ Component, pageProps }: AppProps) {
         </nav>
       </header>
       <Component {...pageProps} />
-     <EmailSubscription />
+      <SubscribeForm />
      <header>
         <nav>
           <div className="social-links">
@@ -70,6 +70,7 @@ export default function App({ Component, pageProps }: AppProps) {
           </div>
         </nav>
       </header>
+     
     
     </>
   );
