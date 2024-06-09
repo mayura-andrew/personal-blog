@@ -1,7 +1,6 @@
 ---
 title: Building a Bulk Email Sending API client with Go, Google SMTP, PostgreSQL and Docker 🐳
 date: 2024/6/09
-description: Discover how to build a robust and scalable bulk email sending API using Go and Google SMTP for the Sustainable Education Foundation's ScholarX platform.
 tag: go, api, postgresql, docker, google, smtp, http, restful
 author: mayura andrew
 ---
