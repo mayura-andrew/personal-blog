@@ -71,7 +71,7 @@ img.next-image {
 
 
 header {
-  background-color: #fff; /* Adjust background color as needed */
+  background-color: transparent; /* Adjust background color as needed */
   padding: 0px;
   margin-top: 10px;
 }
@@ -113,7 +113,7 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
   }
-
+  
   .social-links {
     justify-content: center;
     margin-top: 10px;
