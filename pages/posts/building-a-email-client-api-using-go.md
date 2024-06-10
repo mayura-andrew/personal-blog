@@ -18,15 +18,16 @@ The ScholarX platform is managed via a React + TypeScript-based frontend and a N
 
 ### Tables of Content 📑
 
-- [00 Overview of the Architecture](#00-overview-of-the-architecuture)
-- [01 Why Go Lang?](#01-why-go-lang)
+- [00 Overview of the Architecture](#00-overview-of-the-architecuture-️)
+- [01 Why Go Lang?](#01-why-go-lang-)
 - [02 Project Structure](#02-project-structure-)
 - [03 Handling Concurrent Emails Sending](#03-handling-concurrent-email-sending-)
 - [04 Database Implementation](#04-database-implementation)
 - [05 Tracking Feature](#05-tracking-feature-)
 - [06 Dockerization of the API](#06-dockerization-of-the-email-client-api)
-- [07 Conclusion](#07-conclusion-)
-- [08 Leaning Resources](#08-learning-resources)
+- [07 Limitations and Security Considerations](#07-limitations-and-security-considerations)
+- [08 Conclusion](#08-conclusion-)
+- [09 Leaning Resources](#09-learning-resources)
   
 ### 00 Overview of the Architecuture ⚙️
 
@@ -681,7 +682,77 @@ URL=your_tracking_url
 ```
 Now it is running...
 
-### 07 Conclusion 🌟
+### 07 Limitations and Security Considerations🔒
+
+While this email client API is robust and efficient, it is essential to acknowledge some limitations and future security improvements.
+
+##### Limitations of Googel SMTP
+
+- Email Sending Limits: Google SMTP has a daily sending limit. For free Gmail accounts, the limit is 500 emails per day, while for Google Workspace accounts, it is 2,000 emails per day. Exceeding these limits will result in temporarily losing the ability to send emails.
+
+##### Security Considerations
+- Authentication and Authorization: Currently, the API does not implement authentication or authorization mechanisms. This poses a security risk as unauthorized users could potentially send emails or access sensitive endpoints. Implementing robust authentication (such as OAuth2 or JWT) and role-based access control will be essential to secure the API.
+- Rate Limiting: To prevent abuse and ensure fair usage, a rate limiter has been implemented. This middleware restricts the number of requests each client can make within a specified time frame, helping to mitigate DoS attacks. 
+Here is the implementation:
+
+```go
+func (app *application) rateLimit(next http.Handler) http.Handler {
+	type client struct {
+		limiter  *rate.Limiter
+		lastSeen time.Time
+	}
+
+	var (
+		mu      sync.Mutex
+		clients = make(map[string]*client)
+	)
+
+	go func() {
+		for {
+			time.Sleep(time.Minute)
+
+			mu.Lock()
+			for ip, client := range clients {
+				if time.Since(client.lastSeen) > 3*time.Minute {
+					delete(clients, ip)
+				}
+			}
+			mu.Unlock()
+		}
+	}()
+
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if app.config.limiter.enabled {
+			ip, _, err := net.SplitHostPort(r.RemoteAddr)
+			if err != nil {
+				app.serverErrorResponse(w, r, err)
+				return
+			}
+
+			mu.Lock()
+			if _, found := clients[ip]; !found {
+				clients[ip] = &client{
+					limiter: rate.NewLimiter(rate.Limit(app.config.limiter.rps), app.config.limiter.burst),
+				}
+			}
+
+			clients[ip].lastSeen = time.Now()
+
+			if !clients[ip].limiter.Allow() {
+				mu.Unlock()
+				app.rateLimitExceededResponse(w, r)
+				return
+			}
+			mu.Unlock()
+		}
+		next.ServeHTTP(w, r)
+	})
+}
+```
+
+This middleware ensures that each client can only make a certain number of requests per second, providing a basic form of protection against abuse.
+
+### 08 Conclusion 🌟
 
 In this article, we explored the comprehensive process of building a bulk email sending API using Go and Google SMTP, which is an integral part of the Sustainable Education Foundation's ScholarX platform. We delved into the architecture of the platform, highlighting the seamless interaction between the React-based frontend, Node.js backend, and the Go email client.
 
@@ -694,7 +765,7 @@ By leveraging these technologies and practices, we have created a robust and sca
 I hope this guide provides valuable insights and helps you in implementing similar solutions in your projects. Happy coding! 🚀
 
 
-### 08 Learning Resources📚
+### 09 Learning Resources📚
 
 For further learning and to explore the code, check out following resources:
 - [GitHub Repository📦](https://github.com/sef-global/email-client-api): View the complete source code for this project.
