@@ -688,7 +688,8 @@ While this email client API is robust and efficient, it is essential to acknowle
 
 ##### Limitations of Googel SMTP
 
-- Email Sending Limits: Google SMTP has a daily sending limit. For free Gmail accounts, the limit is 500 emails per day, while for Google Workspace accounts, it is 2,000 emails per day. Exceeding these limits will result in temporarily losing the ability to send emails.
+- Email Sending Limits: Google SMTP has a daily sending limit. Exceeding these limits will result in temporarily losing the ability to send emails.
+- More about Google SMTP read [this](https://support.google.com/a/answer/176600?hl=en)
 
 ##### Security Considerations
 - Authentication and Authorization: Currently, the API does not implement authentication or authorization mechanisms. This poses a security risk as unauthorized users could potentially send emails or access sensitive endpoints. Implementing robust authentication (such as OAuth2 or JWT) and role-based access control will be essential to secure the API.
