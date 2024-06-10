@@ -689,7 +689,7 @@ While this email client API is robust and efficient, it is essential to acknowle
 ##### Limitations of Googel SMTP
 
 - Email Sending Limits: Google SMTP has a daily sending limit. Exceeding these limits will result in temporarily losing the ability to send emails.
-- More about Google SMTP read [this](https://support.google.com/a/answer/176600?hl=en)
+- To learn more about Google SMTP, check out the resources section below.
 
 ##### Security Considerations
 - Authentication and Authorization: Currently, the API does not implement authentication or authorization mechanisms. This poses a security risk as unauthorized users could potentially send emails or access sensitive endpoints. Implementing robust authentication (such as OAuth2 or JWT) and role-based access control will be essential to secure the API.
@@ -769,12 +769,14 @@ I hope this guide provides valuable insights and helps you in implementing simil
 ### 09 Learning Resources📚
 
 For further learning and to explore the code, check out following resources:
+- [ScholarX Platform🎓](https://scholarx.sefglobal.org/): Explore the ScholarX platform and its mission to provide premium mentoring assistance.
+- [Sustainable Education Foundation🌍](https://sefglobal.org/):Learn more about the foundation and its initiatives.
 - [GitHub Repository📦](https://github.com/sef-global/email-client-api): View the complete source code for this project.
 - [DockerHub🐳](https://hub.docker.com/r/mayuraandrew/gosendemailapi): Access the Docker image for easy deployment.
 - [Go Programming Language🐹](https://go.dev/): Official Go documentation for deeper insights into Go's capabilities.
 - [About Containers🛳️](https://mayuraandrew.tech/posts/containers):  Learn more about the containers.
-- [ScholarX Platform🎓](https://scholarx.sefglobal.org/): Explore the ScholarX platform and its mission to provide premium mentoring assistance.
-- [Sustainable Education Foundation🌍](https://sefglobal.org/):Learn more about the foundation and its initiatives.
+- [Google SMTP Limit ⚠️](https://support.google.com/a/answer/176600?hl=en): More about the Limitation of Google SMTP.
+- [How to setup Google SMTP 🔧](https://mailtrap.io/blog/gmail-smtp/): Detailed Guide through Gmail SMTP Setup and Configurations.
   
 ##### Your contributions and feedback are welcome!😃 Feel free to fork the repository, submit pull requests, or report issues. Let's collaborate🫂 to make this project event better. Thank you for reading!
 ---
