@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   const meta = {
     title: 'mayuraandrew.tech',
-    description: 'An Early Stage Software Engineer | Undergraduate | Open-Source Enthusiast | Global Citizen',
+    description: 'Exploring Future Technologies: Building Something Useful for Everyone 🌐👨🏻‍💻 Welcome to my personal blog where curiosity meets passion for future technology. Join me on a journey of innovation and research, as I delve into building impactful solutions with the latest in technology. Discover how technology can empower and benefit everyone, and explore insightful articles on cutting-edge advancements. Whether you are a curious mind or a tech enthusiast, there is something here for you to learn and explore.',
     image: '../public/favicon.ico',
   }
 
