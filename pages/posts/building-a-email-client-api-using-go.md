@@ -658,11 +658,11 @@ To build and run the Docker container, follow these steps.
 
 1. Build the Docker Image
 ```bash
-docker build -t email-client-api .
+docker build -t email-client-api:latest .
 ```
 2. Run the Docker Container
 ```bash
-docker run -d -p 4000:4000 --env-file .env email-client-api
+docker run -e "DB_DSN=postgres://<USERNAME>:<PASSWORD>@<HOSTNAME>/<DBNAME>" -e "SMTPPORT=587" -e "SMTPUSER=your-email@gmail.com" -e "SMTPPASS=your-password" -e "SMTPHOST=smtp.gmail.com" -e "URL=your-email-api-runnig-url" -p 4000:4000 email-client-ap:latest
 ```
 In this command:
 
