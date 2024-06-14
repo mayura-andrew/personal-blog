@@ -59,7 +59,7 @@ Overall, this experience has been transformative, providing me with practical kn
 
 ##### Tips for Aspiring Open-Source Contributors 💡
 - **Be Curious**: Ask questions and never stop exploring.
-- Research Extensively: Utilize the internet to learn and solve problems.
+- **Research Extensively**: Utilize the internet to learn and solve problems.
 - **Experiment and Seek Feedback**: Try out different solutions, get feedback, and understand others' perspectives.
 - **Accept Challenges**: Push yourself to take on new and difficult tasks.
 - **Keep an Open Mind**: Be receptive to new ideas and approaches.
