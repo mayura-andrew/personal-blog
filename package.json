@@ -2,7 +2,7 @@
   "private": true,
   "homepage": "https://mayura-andrew.github.io/",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "serve out",
     "export": "next export"
